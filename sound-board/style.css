@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.btn {
+  margin: 1rem;
+  border-radius: 0;
+  border: none;
+  padding: 20px 40px;
+  outline: none;
+  background-color: #1597bb;
+  color: aliceblue;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+.btn:active {
+  transform: scale(0.95);
+}
